@@ -27,6 +27,28 @@
             </div>
         </fieldset>
     </form>
+    <form class="controls-section images">
+        <fieldset>
+            <legend>Images</legend>
+            <div class="controls-content">
+                <section class="control-container opacity"><label>Opacity: <input type="number" id="image-opacity" class="control-opacity" /></label></section>
+                <section class="control-container display"><label><input type="checkbox" id="image-display" checked />Display</label></section>
+                <section class="control-container editable"><label><input type="checkbox" id="image-editable" checked />Editable</label></section>
+                <section class="control-container import">
+                    <button type="button" class="control-button" id="image-import">Import</button>
+                    <input type="file" id="image-import-file" class="control-file" />
+                </section>
+                <section class="control-container delete"><button type="button" class="control-button" id="image-delete">Delete</button></section>
+                <section class="control-container undo">
+                    <button type="button" class="control-button control-mini-button" id="image-undo" title="Undo" disabled>&#8617;</button>
+                </section>
+                <section class="control-container redo">
+                    <button type="button" class="control-button control-mini-button" id="image-redo" title="Redo" disabled>&#8618;</button>
+                </section>
+                <section class="control-container export"><button type="button" class="control-button" id="image-export">Export</button></section>
+            </div>
+        </fieldset>
+    </form>
     <form class="controls-section polygons">
         <fieldset>
             <legend>Polygons</legend>

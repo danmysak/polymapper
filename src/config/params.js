@@ -5,13 +5,19 @@ const RADIUS_COEFFICIENT = 2000;
 
 const DEFAULT_MARKER_COLOR = '#0000ff';
 const DEFAULT_POLYGON_COLOR = '#ff0000';
+const IMAGE_RECTANGLE_COLOR = '#000000';
 
 const MARKER_STROKE_OPACITY = 1.0;
 const MARKER_FILL_OPACITY = 0.4;
+const DEFAULT_IMAGE_OPACITY = 5;
+const MIN_IMAGE_OPACITY = 1;
+const MAX_IMAGE_OPACITY = 10;
+const IMAGE_STROKE_OPACITY = 1.0;
 const POLYGON_STROKE_OPACITY = 1.0;
 const POLYGON_FILL_OPACITY = 0.4;
 
-const NEW_POLYGON_RATIO = 4.0; // The new square’s side will be this times less than Maps’ least dimension
+// One of new polygon's sides will be this times shorter than the respective dimension of the map
+const POLYGON_SIDE_RATIO = 4;
 
 const MAP_OPTIONS = {
   zoom: 2,

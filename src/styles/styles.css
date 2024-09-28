@@ -37,7 +37,7 @@ body {
     vertical-align: middle;
 }
 
-.control-radius {
+.control-radius, .control-opacity {
     width: 46px;
 }
 
